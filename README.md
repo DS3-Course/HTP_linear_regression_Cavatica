@@ -53,7 +53,7 @@ Dashboard > Cavatica Projects > Connect.
       - Go to the <ins>*Data Studio*</ins> tab > Create new analysis.  
       - Set analysis name (e.g. "HTP linear regression").  
       - Select RStudio as your 'Environment' (JupyterLab is also available).  
-      - Select latest R version in 'Environment setup' (eg R 4.4.0 - BioC 3.19).  
+      - Select an R version/image in 'Environment setup' (eg R 4.4.0 - BioC 3.19).  
       - Select Instance type, Attached Storage, Suspend Time (may affect cost).  
       - Click on Start and wait for instance to initialize.  
 

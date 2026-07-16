@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/DS3_Logo_Horizontal.png" alt="DS3 Logo" width="600"/>
+</p>
+
 # R-based analysis of INCLUDE data on Cavatica
 
 ## Creating a Cavatica Project  

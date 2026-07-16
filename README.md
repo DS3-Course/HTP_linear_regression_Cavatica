@@ -104,7 +104,6 @@ Dashboard > Cavatica Projects > Connect.
 >  Saving of these files upon termination ~~may~~ will take several minutes.
 >
 >* How to get sample metadata:  
-<!-- NEED TO ADD DETAILS ABOUT HOW TO GET METADATA DIRECTLY FROM FILES IN CAVATICA - Sex is missing? -->
 >  **Option 1**:  
 >    In your Cavatica project, go to the <ins>*Files*</ins> tab, select the appropriate files, then click '...' (More actions) and select 'Generate metadata manifest (CSV or TSV)'.  
 >    A new manifest file containing metadata will appear in your files list.  

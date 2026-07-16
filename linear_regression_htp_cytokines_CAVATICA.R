@@ -449,6 +449,10 @@ file.copy(
   recursive = TRUE
 )
 #
+# Clean up cache before stopping the analysis
+# Enter in terminal: sudo rm -rf ~/.cache/R/ && rm -rf ~/.local/share/
+# This ensures a faster save process when stopping your analysis session.
+# Now you can STOP the data studio session.
 
 
 ################################################

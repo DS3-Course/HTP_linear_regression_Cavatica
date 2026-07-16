@@ -110,6 +110,11 @@ Dashboard > Cavatica Projects > Connect.
 >  Any files or dirs copied to this location **will not be accessible until after the Data Studio instance is terminated**.  
 >  Saving of these files upon termination ~~may~~ will take several minutes.
 >
+>* Clean up cache before stopping the analysis
+>  Enter in terminal: `sudo rm -rf ~/.cache/R/ && rm -rf ~/.local/share/`
+>  This ensures a faster save process when stopping your analysis session.
+>  Now you can STOP the data studio session.
+>
 >* How to get sample metadata:  
 >  **Option 1**:  
 >    In your Cavatica project, go to the <ins>*Files*</ins> tab, select the appropriate files, then click '...' (More actions) and select 'Generate metadata manifest (CSV or TSV)'.  

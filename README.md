@@ -64,7 +64,14 @@ Dashboard > Cavatica Projects > Connect.
 
 2. You should now be presented with an RStudio instance.  
 
-   a. To create a new Project by cloning from Github. 
+   a. To create a new Project manually. 
+
+     - Go to File > New Project... and set up your R project.
+     - Create directories as needed within your R project.
+     - Go to File > New File > R Script.  
+     - Edit and save your R Script, and proceed with analysis as usual.  
+
+   b. To create a new Project by cloning from Github. 
     
       - Go to File > New Project... > Version Control > Git.  
       - Enter Repository URL.  
@@ -73,7 +80,7 @@ Dashboard > Cavatica Projects > Connect.
       - May need to enter Github Username and PAT.  
       - Once project opens in RStudio, in R console run `renv::init()` to initialize project and install required packages (renv should already be available).  
 
-   b. Previously created *Analyses* should resume with R Project already open in RStudio.  
+   c. Previously created *Analyses* should resume with R Project already open in RStudio.  
 
       - If not, go to File > Open Project... > Select .Rproj file.  
       - Once project opens in RStudio, in R console run `renv::restore()` to restore project and re-install required packages.  
